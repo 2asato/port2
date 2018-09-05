@@ -1,9 +1,17 @@
 #pic-header {
   background-color: red;
   width: 75%;
-  height: 50%;
+  height: 400px;
   margin: 0 auto;
   text-align: center;
+}
+
+#profile-pic {
+  margin-top: 25px;
+}
+
+#icon-list {
+  margin-bottom: 100px;
 }
 
 .fa-github, .fa-file-alt {
