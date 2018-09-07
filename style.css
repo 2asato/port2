@@ -36,8 +36,12 @@ body {
   color: black;
 }
 
-#about-container {
+#about-container, #projects-container{
   padding: 55px 0;
+}
+
+#about-line {
+  padding: 15px 0;
 }
 
 .close-right {
