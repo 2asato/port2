@@ -36,7 +36,6 @@ body {
   color: black;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
+#about-container {
+  padding: 50px 0;
 }
