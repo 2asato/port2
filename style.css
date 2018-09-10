@@ -44,15 +44,19 @@ body {
 }
 
 #about-container, #projects-container{
-  padding: 55px 0;
+  padding: 55px 0 0 0;
 }
 
-#about-line {
-  padding: 15px 0;
+#about-line, .row {
+  padding: 20px 0;
 }
 
 .close-right {
   text-align: right;
+}
+
+.portfolio-item {
+  padding: 20px 0;
 }
 
 .card-img-top {
