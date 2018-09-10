@@ -54,3 +54,8 @@ body {
 .close-right {
   text-align: right;
 }
+
+.card-img-top {
+  width: 700px;
+  height: 400px;
+}
