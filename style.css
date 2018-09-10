@@ -6,14 +6,12 @@ body {
   padding:0 50px;
 }*/
 
-#hover1:hover, #hover2:hover, #hover3:hover, #hover4:hover{
-  color: white;
-}
-
 #main {
   background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
   height: 550px;
   margin-top: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #pic-header {
@@ -38,6 +36,11 @@ body {
 
 .fa-github, .fa-file-alt {
   color: black;
+}
+
+.da-body {
+  margin-top: -35px;
+  background-color: black;
 }
 
 #about-container, #projects-container{
