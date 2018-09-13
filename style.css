@@ -13,6 +13,14 @@ body {
 #main {
   background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
   height: 550px;
+
+  /*parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*parallax scrolling end*/
+
   margin-top: 50px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
