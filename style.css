@@ -2,9 +2,13 @@ body {
   font-family: monospace;
 }
 
-/*.nav-item {
-  padding:0 50px;
-}*/
+.nav-foot {
+  background-color: lightgrey;
+}
+
+.to-white:hover {
+  color: black;
+}
 
 #main {
   background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
