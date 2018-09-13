@@ -43,11 +43,11 @@ body {
   background-color: black;
 }
 
-#about-container, #projects-container{
+#about-container, #projects-container, #contact-container{
   padding: 55px 0 0 0;
 }
 
-#about-line, .row {
+#about-line, .row, #contact-info {
   padding: 10px 0;
 }
 
@@ -67,4 +67,22 @@ body {
 .modal-icons {
   margin: 0 auto;
   padding-right: 10px;
+}
+
+#contact-list li {
+  padding-right: 20px;
+}
+
+.fa-envelope {
+  color: red;
+}
+
+#foot {
+  margin-top: 30px;
+  color: #f4426b;
+  padding-bottom: 5px;
+}
+
+#foot-text {
+  padding-top: 10px;
 }
