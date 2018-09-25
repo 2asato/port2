@@ -12,7 +12,7 @@ body {
 
 #main {
   background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
-  height: 550px;
+  height: 760px;
 
   /*parallax scrolling effect*/
   background-attachment: fixed;
@@ -30,10 +30,10 @@ body {
   background-color: white;
   max-width: 300px;
   max-height: auto;
-  margin: 0 auto;
   text-align: center;
   border-radius: 5%;
   border: 1px solid grey;
+  margin-top: 60px;
 }
 
 #profile-pic {
@@ -56,11 +56,15 @@ body {
 }
 
 #about-container, #projects-container, #contact-container{
-  padding: 55px 0 0 0;
+  padding: 100px 0 0 0;
 }
 
-#about-line, .row, #contact-info {
-  padding: 10px 0;
+#about-line, #project-pics, #contact-info {
+  padding: 20px 0;
+}
+
+#about-line, .row {
+  margin: 0 90px;
 }
 
 .close-right {
@@ -96,9 +100,14 @@ body {
 #foot {
   margin-top: 30px;
   color: #f4426b;
+  margin-top: 100px;
   padding-bottom: 5px;
 }
 
 #foot-text {
   padding-top: 10px;
+}
+
+.modal-header {
+  background-color: #f4426b;
 }
