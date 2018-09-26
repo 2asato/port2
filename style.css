@@ -56,7 +56,7 @@ body {
 }
 
 #about-container, #projects-container, #skills-container, #contact-container{
-  padding: 100px 0 0 0;
+  padding: 150px 0 0 0;
 }
 
 #about-line, #project-pics, #contact-info, #skills-list {
@@ -120,4 +120,5 @@ body {
 .skills-list {
   text-align: center;
   list-style-type: none;
+  color: #47465E;
 }
