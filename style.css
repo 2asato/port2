@@ -61,8 +61,8 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
   margin-bottom: 50px;
 }
 
-.fa-github, .fa-file-alt {
-  /*color: black;*/
+.fa-github {
+  color: white;
 }
 
 .da-body {
@@ -140,6 +140,10 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
 
 #foot-text {
   padding-top: 10px;
+}
+
+#fa-github-contact, .fa-file-alt{
+  color: black;
 }
 
 .modal-header {
