@@ -5,6 +5,7 @@ body {
 .navbar  {
   /*transform: translateX(-50%);*/
 background-color: rgba(0,0,0,0.1);
+  /*box-shadow: 0px 1px 10px #999;*/
 }
 
 
