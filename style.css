@@ -2,11 +2,18 @@ body {
   font-family: monospace;
   overflow-x: hidden;
 }
+.navbar  {
+  /*transform: translateX(-50%);*/
+background-color: rgba(0,0,0,0.1);
+}
 
-.nav-foot {
+
+
+/*.nav-foot {
   background-color: lightgrey;
   /*border: 1px solid #47465E;*/
-}
+  /*background: transparent;*/
+}*/
 
 .to-black:hover {
   color: black;
@@ -14,8 +21,8 @@ body {
 
 #main {
   /*background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");*/
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
-background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
   height: 760px;
 
   /*parallax scrolling effect*/
@@ -25,7 +32,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("https
   background-size: cover;
   /*parallax scrolling end*/
 
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 0px;
   /*border-top: 1px solid black;
   border-bottom: 1px solid black;*/
@@ -48,14 +55,17 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("https
   max-height: auto;
   text-align: center;
   border-radius: 5%;
-  margin-top: 100px;
+  margin-top: 150px;
   color: white;
 }
 
 #profile-pic {
-  margin-top: 25px;
+  /*margin-top: 25px auto;*/
   border-radius: 50%;
   filter: grayscale(50%);
+  display: block;
+  margin: auto;
+  margin-bottom: 35px;
 }
 
 #icon-list {
