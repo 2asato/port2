@@ -13,8 +13,8 @@ body {
 
 #main {
   /*background-image: url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");*/
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
-background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https://c.wallhere.com/photos/45/4f/1564x1080_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1295509.jpg!d");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
   height: 760px;
 
   /*parallax scrolling effect*/
