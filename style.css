@@ -2,8 +2,17 @@ body {
   font-family: monospace;
   overflow-x: hidden;
 }
+
 .navbar  {
   background-color: black;
+}
+
+.navbar-toggler-icon {
+  background-color: #f4426b !important;
+}
+
+.nav-item {
+  padding-right: 15px;
 }
 
 .to-white:hover {
