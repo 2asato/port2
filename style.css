@@ -81,9 +81,6 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
   background-color: black;
 }
 
-.container-fluid {
-}
-
 #about-container, #projects-container, #skills-container, #contact-container{
   padding: 100px 5px;
   /*border: 1px solid purple;*/
@@ -171,6 +168,10 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
   text-align: center;
   list-style-type: none;
   color: #47465E;
+}
+
+#skills-list {
+  margin-right: 20px;
 }
 
 /*portfolio-itom bounce*/
