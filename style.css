@@ -4,7 +4,7 @@ body {
 }
 .navbar  {
   /*transform: translateX(-50%);*/
-background-color: rgba(0,0,0,0.1);
+background-color: black;
   /*box-shadow: 0px 1px 10px #999;*/
 }
 
@@ -62,11 +62,10 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
 
 #profile-pic {
   /*margin-top: 25px auto;*/
-  border-radius: 50%;
+  border-radius: 45%;
   filter: grayscale(50%);
   display: block;
-  margin: auto;
-  margin-bottom: 35px;
+  margin: 35px auto;
 }
 
 #icon-list {
@@ -148,6 +147,7 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("https
 #foot {
   color: #f4426b;
   padding-bottom: 5px;
+  background-color: lightgrey;
 }
 
 #foot-text {
