@@ -6,8 +6,8 @@ body {
   background-color: black;
 }
 
-.to-black:hover {
-  color: black;
+.to-white:hover {
+  color: white;
 }
 
 #main {
