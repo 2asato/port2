@@ -16,16 +16,49 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- font awesome end -->
 
-    <script src="app.js" charset="utf-8"></script>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <!-- bootstrap css end -->
 
     <title>Aaron Sato</title>
   </head>
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target="#myNav">
 
     <a id="top"></a>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-inverse nav-foot" id="myNav">
+      <a class="navbar-brand sliding-link" href="#">
+        <font color='#f4426b' class="to-white">Aaron Sato</font>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active sliding-link" id="hover1" href="#about">
+              <font color='#f4426b' class="to-white">About</font>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active sliding-link" id="hover2" href="#projects">
+              <font color='#f4426b' class="to-white">Projects</font>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active sliding-link" id="hover3" href="#skills">
+              <font color='#f4426b' class="to-white">Skills</font>
+            </a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link active sliding-link" id="hover4" href="#contact">
+              <font color='#f4426b' class="to-white">Contact</font>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
 
 
 
@@ -47,40 +80,6 @@
     </div>
     <!-- jumbotron end -->
 
-    <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-inverse nav-foot" id="myNav">
-      <a class="navbar-brand" href="#">
-        <font color='#f4426b' class="to-white">Aaron Sato</font>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover1" href="#about">
-              <font color='#f4426b' class="to-white">About</font>
-            </a>
-          </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover2" href="#projects">
-              <font color='#f4426b' class="to-white">Projects</font>
-            </a>
-          </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover3" href="#skills">
-              <font color='#f4426b' class="to-white">Skills</font>
-            </a>
-          </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link active" id="hover4" href="#contact">
-              <font color='#f4426b' class="to-white">Contact</font>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- navbar end -->
 
     <div class="content">
     <!-- about -->
@@ -365,6 +364,8 @@
         </p>
       </footer>
       <!-- footer end -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- bootstrap jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
