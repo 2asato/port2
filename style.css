@@ -57,7 +57,7 @@ body {
 
 #profile-pic {
   border-radius: 50%;
-  filter: grayscale(50%);
+  filter: grayscale(25%);
   display: block;
   margin: 35px auto;
 }
