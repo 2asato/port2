@@ -154,6 +154,11 @@ body {
   margin-right: 20px;
 }
 
+.twitter-center {
+  margin: 0 auto;
+  width: 45%;
+}
+
 /*portfolio-itom bounce*/
 /* Wobble Vertical via hover.css*/
 @-webkit-keyframes hvr-wobble-vertical {
