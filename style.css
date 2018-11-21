@@ -79,11 +79,11 @@ body {
   background-color: black;
 }
 
-#about-container, #projects-container, #skills-container, #contact-container{
+#about-container, #projects-container, #skills-container, #twitter-container, #contact-container{
   padding: 100px 5px;
 }
 
-#about-container, #skills-container {
+#about-container, #skills-container, #contact-container {
   background-color: lightgrey;
 }
 
