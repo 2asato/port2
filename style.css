@@ -83,7 +83,7 @@ body {
   padding: 100px 5px;
 }
 
-#about-container, #skills-container, #contact-container {
+#about-container, #skills-container {
   background-color: lightgrey;
 }
 
@@ -231,7 +231,7 @@ body {
   animation-iteration-count: 1;
 }
 
-/*hides scrollbar*/
+hides scrollbar
 ::-webkit-scrollbar {
 display: none;
 }
