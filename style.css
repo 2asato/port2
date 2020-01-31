@@ -231,7 +231,7 @@ body {
   animation-iteration-count: 1;
 }
 
-hides scrollbar
+h
 ::-webkit-scrollbar {
 display: none;
 }
