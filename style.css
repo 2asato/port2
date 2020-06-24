@@ -8,21 +8,14 @@ body {
   scroll-behavior: smooth;
 }*/
 
-.navbar  {
-  background-color: black;
-}
+
 
 .navbar-toggler-icon {
-  background-color: #f4426b !important;
+  background-color: black!important;
 }
 
-.nav-item {
-  padding-right: 15px;
-}
 
-.to-white:hover {
-  color: white;
-}
+
 
 #main {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),  url("https://amazingpict.com/wp-content/uploads/2015/04/seattle-city-lights.jpg");
