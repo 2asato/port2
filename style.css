@@ -4,7 +4,21 @@ body {
   position: relative;
 }
 
-#icon-list {
+.view {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left-bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3))), url('pics/shunya-koide-7svli__kLRk-unsplash.jpg'); 
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('pics/shunya-koide-7svli__kLRk-unsplash.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+
+.fab, .fas, .far {
+  color: black;
+}
+
+#icon-list li {
   font-size: 1.5em !important;
 }
 
@@ -53,9 +67,7 @@ body {
   transform: scale(1.1);
 } */
 
-.fa-envelope {
-  color: red;
-}
+
 
 /* #foot {
   color: #f4426b;
@@ -67,9 +79,6 @@ body {
   padding-top: 10px;
 } */
 
-#fa-github-contact, .fa-file-alt{
-  color: black;
-}
 
 /* .modal-header {
   background-color: #f4426b;
