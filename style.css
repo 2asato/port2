@@ -12,6 +12,7 @@ body {
   background-size: cover; 
   background-position: center center;
   /* background-attachment: fixed; */
+  margin-bottom: 100px;
 }
 
 .fab, .fas, .far {
@@ -25,6 +26,8 @@ body {
 #icon-list li:hover {
   transform: scale(1.1);
 }
+
+
 
 
 
@@ -49,10 +52,10 @@ body {
   padding: 20px 0;
 } */
 
-/* .card-img-top {
-  width: 300px;
+.card-img-top {
+  width: 250px;
   height: 200px;
-} */
+}
 
 /* .modal-icons {
   margin: 0 auto;
