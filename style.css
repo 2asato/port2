@@ -1,7 +1,11 @@
 body {
-  font-family: monospace;
+  font-family: 'Roboto Slab', serif !important;
   overflow-x: hidden;
   position: relative;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .view {
