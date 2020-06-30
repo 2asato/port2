@@ -36,6 +36,26 @@ body {
   box-shadow: 5px 10px 5px darkgrey !important;
 }
 
+.modal-header {
+  background-color: green;
+}
+
+.close {
+  color: white !important;
+}
+
+.modal-body p, .about-text {
+  font-size: 1rem !important;
+}
+
+
+#profile-pic {
+  /* border-radius: 50%; */
+  filter: grayscale(25%);
+  display: block;
+  margin: auto;
+  box-shadow: 5px 10px 5px darkgrey !important;
+}
 
 
 
@@ -93,9 +113,7 @@ body {
 } */
 
 
-/* .modal-header {
-  background-color: #f4426b;
-} */
+
 
 /* .skills-col-title {
   text-align: center;
