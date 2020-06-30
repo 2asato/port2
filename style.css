@@ -17,6 +17,7 @@ body {
   background-position: center center;
   /* background-attachment: fixed; */
   margin-bottom: 100px;
+  box-shadow: 5px 10px 5px darkgrey !important;
 }
 
 .fab, .fas, .far {
@@ -31,7 +32,9 @@ body {
   transform: scale(1.1);
 }
 
-
+.project-img {
+  box-shadow: 5px 10px 5px darkgrey !important;
+}
 
 
 
