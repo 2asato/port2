@@ -17,7 +17,7 @@ body {
   background-position: center center;
   /* background-attachment: fixed; */
   margin-bottom: 100px;
-  box-shadow: 5px 10px 5px darkgrey !important;
+  box-shadow: 5px 10px 25px 5px darkgrey !important;
 }
 
 .fab, .fas, .far {
@@ -32,8 +32,12 @@ body {
   transform: scale(1.1);
 }
 
+.btn-outline-white:visited {
+  color: white;
+}
+
 .project-img {
-  box-shadow: 5px 10px 5px darkgrey !important;
+  /* box-shadow: 5px 10px 5px darkgrey !important; */
 }
 
 .modal-header {
@@ -54,20 +58,21 @@ body {
   filter: grayscale(25%);
   display: block;
   margin: auto;
-  box-shadow: 5px 10px 5px darkgrey !important;
+  /* box-shadow: 5px 10px 5px darkgrey !important; */
 }
 
 .twitter-container {
-  box-shadow: 5px 10px 5px darkgrey !important;
+  /* box-shadow: 5px 10px 5px darkgrey !important; */
 }
 
 
 
 
-
-/* #about-container, #projects-container, #skills-container, #twitter-container, #contact-container{
+.section-container {
   padding: 100px 5px;
-} */
+  box-shadow: 5px 10px 25px 5px darkgrey !important;
+}
+
 
 /* #about-container, #skills-container {
   background-color: lightgrey;
