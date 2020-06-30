@@ -44,7 +44,7 @@ body {
   color: white !important;
 }
 
-.modal-body p, .about-text {
+.modal-body p, .about-text, .skills-list {
   font-size: 1rem !important;
 }
 
