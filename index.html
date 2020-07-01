@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&family=Roboto+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- bootstrap responsive -->
     <meta
@@ -37,190 +40,235 @@
     <title>Aaron Sato</title>
   </head>
   <body data-spy="scroll" data-target="#myNav">
-      <a id="top"></a>
+    <a id="top"></a>
 
-      <!-- navbar -->
-      <nav class="navbar navbar-expand fixed-top flex-column flex-md-row navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="/pics/favicon-256.png" class="mr-2" alt="" width="36" height="36"> Aaron Sato</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutMe">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#happenings">Happenings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-            </ul>
-          </div>
-          <ul class="navbar-nav" id="icon-list">
-              <li class="nav-item mr-3">
-                  <a
-                  href="mailto:aarongsato@gmail.com"
-                  title="Email"
-                  target="_blank"
-                  ><i class="far fa-envelope "></i
-                ></a>
-                </li>
-              <li class="nav-item mr-3">
-                  <a
-                  href="https://www.linkedin.com/in/aarongsato/"
-                  target="_blank"
-                  title="LinkedIn"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                </li>
-              <li class="nav-item mr-3">
-                  <a href="https://github.com/2asato" title="Github" target="_blank"
-                  ><i class="fab fa-github" id="fa-github-contact"></i
-                ></a>
-                </li>
-              <li class="nav-item mr-3">
-                  <a
-                  href="https://twitter.com/aarongsato"
-                  target="_blank"
-                  title="Twitter"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                </li>
-                <li class="nav-item mr-3">
-                  <a
-                  href="https://drive.google.com/open?id=1_-uJ9BOx1T6Gewq4-IWAOKzKdaIykSnu"
-                  title="Resume"
-                  target="_blank"
-                  ><i class="fas fa-file-alt"></i
-                ></a>
-    
-                </li>
-            </ul>
-
-        </nav>      
-        <!-- navbar end -->
-
-         <!-- Full Page Intro -->
-
-    <div class="view d-flex justify-content-center align-items-center container">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="mb-4 text-white text-center">
-            <h1 class="text-uppercase font-weight-bold mt-5 raleway font-weight-bold">Aaron Sato</h1>
-            <h4 class="text-uppercase mb-1white-text raleway font-weight-bold">Web Developer</h4>
-            <h5 class="text-uppercase white-text raleway font-weight-bold">Seattle, WA</h5>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand fixed-top flex-column flex-md-row navbar-light bg-light"
+      id="myNav"
+    >
+      <a class="navbar-brand" data-value="top" href="#"
+        ><img
+          src="/pics/favicon-256.png"
+          class="mr-2"
+          alt=""
+          width="36"
+          height="36"
+        />
+        Aaron Sato</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" data-value="projects" href="#projects"
+              >Projects<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="aboutMe" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="happenings" href="#happenings">Happenings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="skills" href="#skills">Skills</a>
+          </li>
+        </ul>
       </div>
+      <ul class="navbar-nav" id="icon-list">
+        <li class="nav-item mr-3">
+          <a href="mailto:aarongsato@gmail.com" title="Email" target="_blank"
+            ><i class="far fa-envelope "></i
+          ></a>
+        </li>
+        <li class="nav-item mr-3">
+          <a
+            href="https://www.linkedin.com/in/aarongsato/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="nav-item mr-3">
+          <a href="https://github.com/2asato" title="Github" target="_blank"
+            ><i class="fab fa-github" id="fa-github-contact"></i
+          ></a>
+        </li>
+        <li class="nav-item mr-3">
+          <a
+            href="https://twitter.com/aarongsato"
+            target="_blank"
+            title="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="nav-item mr-3">
+          <a
+            href="https://drive.google.com/open?id=1_-uJ9BOx1T6Gewq4-IWAOKzKdaIykSnu"
+            title="Resume"
+            target="_blank"
+            ><i class="fas fa-file-alt"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
 
-      <!-- projects -->
-<a href="" id="projects"></a>
-      <div class="container section-container">
-        <h1 class="text-center text-uppercase font-weight-bold raleway mb-5">Projects</h1>
-<!-- Grid row -->
-<div class="row">
+    <!-- Full Page Intro -->
 
-    <!-- Seahawks DC -->
-
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
-  
-      <!--Modal: Name-->
-      <div class="modal fade" id="modalSeahawks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-  
-          <!--Content-->
-          <div class="modal-content">
-
-            <!-- Header -->
-
-              <div class="modal-header">
-                  <h5 class="modal-title raleway text-light">Seahawks Draft Class</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-
-  
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
-
-                <div class="modal-body lead text-muted">
-                    <p><em>
-                     Meet the latest draft class of the Seattle Seahawks. <br> Built using HTML, CSS, Bootstrap and Javascript.<br />Hosted on Heroku.
-                    </em>
-                    </p>
-                  </div>
-  
-  
-  
-            </div>
-  
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
-                <a
-                class="modal-icons mr-2"
-                target="_blank"
-                href="https://github.com/2asato/seahawksDC"
-                title="Github"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a
-                class="modal-icons mr-2"
-                title="Live"
-                target="_blank"
-                href="https://seahawksdc2019.herokuapp.com/"
-                ><img src="pics/if_free-15_463002.png" alt=""
-              /></a>
-
-              <button type="button" class="btn btn-outline-success btn-rounded btn-sm ml-4 raleway" data-dismiss="modal">Close</button>
-  
-            </div>
-  
-          </div>
-          <!--/.Content-->
-  
+    <div
+      class="view d-flex justify-content-center align-items-center container"
+    >
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="mb-4 text-white text-center">
+          <h1
+            class="text-uppercase font-weight-bold mt-5 raleway font-weight-bold"
+          >
+            Aaron Sato
+          </h1>
+          <h4 class="text-uppercase mb-1white-text raleway font-weight-bold">
+            Web Developer
+          </h4>
+          <h5 class="text-uppercase white-text raleway font-weight-bold">
+            Seattle, WA
+          </h5>
         </div>
+        <!--Grid column-->
       </div>
-      <!--Modal: Name-->
-  
-      <a><img class="img-fluid z-depth-1 project-img" src="/pics/seahawksDC.png" alt="image"
-          data-toggle="modal" data-target="#modalSeahawks"></a>
-  
+      <!--Grid row-->
     </div>
-    <!-- Grid column -->
 
-    <!-- Seahawks DC end -->
-  
-    <!-- Patataptap -->
+    <div class="content">
+      <!-- projects -->
+      <a href="" id="projects"></a>
+      <div class="container section-container">
+        <h1 class="text-center text-uppercase font-weight-bold raleway mb-5">
+          Projects
+        </h1>
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Seahawks DC -->
 
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
-  
-        <!--Modal: Name-->
-        <div class="modal fade" id="modalPatataptap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-    
-            <!--Content-->
-            <div class="modal-content">
-  
-              <!-- Header -->
-  
-                <div class="modal-header">
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-4">
+            <!--Modal: Name-->
+            <div
+              class="modal fade"
+              id="modalSeahawks"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!-- Header -->
+
+                  <div class="modal-header">
+                    <h5 class="modal-title raleway text-light">
+                      Seahawks Draft Class
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <!--Body-->
+                  <div class="modal-body mb-0 p-0">
+                    <div class="modal-body lead text-muted">
+                      <p>
+                        <em>
+                          Meet the latest draft class of the Seattle Seahawks.
+                          <br />
+                          Built using HTML, CSS, Bootstrap and Javascript.<br />Hosted
+                          on Heroku.
+                        </em>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a
+                      class="modal-icons mr-2"
+                      target="_blank"
+                      href="https://github.com/2asato/seahawksDC"
+                      title="Github"
+                      ><i class="fab fa-github fa-2x"></i
+                    ></a>
+                    <a
+                      class="modal-icons mr-2"
+                      title="Live"
+                      target="_blank"
+                      href="https://seahawksdc2019.herokuapp.com/"
+                      ><img src="pics/if_free-15_463002.png" alt=""
+                    /></a>
+
+                    <button
+                      type="button"
+                      class="btn btn-outline-success btn-rounded btn-sm ml-4 raleway"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+                <!--/.Content-->
+              </div>
+            </div>
+            <!--Modal: Name-->
+
+            <a
+              ><img
+                class="img-fluid z-depth-1 project-img"
+                src="/pics/seahawksDC.png"
+                alt="image"
+                data-toggle="modal"
+                data-target="#modalSeahawks"
+            /></a>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Seahawks DC end -->
+
+          <!-- Patataptap -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-4">
+            <!--Modal: Name-->
+            <div
+              class="modal fade"
+              id="modalPatataptap"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!-- Header -->
+
+                  <div class="modal-header">
                     <h5 class="modal-title raleway text-light">Patataptap</h5>
                     <button
                       type="button"
@@ -231,74 +279,84 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-  
-    
-              <!--Body-->
-              <div class="modal-body mb-0 p-0">
-  
-                  <div class="modal-body lead text-muted">
-                      <p><em>
-                          Get your tap on and enjoy the sounds and colors! <br> Built using HTML, CSS, Javascript, Paper.js and Howler.js.<br />Hosted on Heroku.
+
+                  <!--Body-->
+                  <div class="modal-body mb-0 p-0">
+                    <div class="modal-body lead text-muted">
+                      <p>
+                        <em>
+                          Get your tap on and enjoy the sounds and colors!
+                          <br />
+                          Built using HTML, CSS, Javascript, Paper.js and
+                          Howler.js.<br />Hosted on Heroku.
                         </em>
-                        </p>
+                      </p>
                     </div>
-    
-    
-    
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a
+                      class="modal-icons"
+                      target="_blank"
+                      href="https://github.com/2asato/Udemy_Web_Developer_Bootcamp/tree/master/patatap"
+                      title="Github"
+                      ><i class="fab fa-github fa-2x"></i
+                    ></a>
+                    <a
+                      class="modal-icons"
+                      title="Live"
+                      target="_blank"
+                      href="https://patataptap.herokuapp.com/"
+                      ><img src="pics/if_free-15_463002.png" alt=""
+                    /></a>
+
+                    <button
+                      type="button"
+                      class="btn btn-outline-success raleway btn-rounded btn-sm ml-4"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+                <!--/.Content-->
               </div>
-    
-              <!--Footer-->
-              <div class="modal-footer justify-content-center">
-                  <a
-                  class="modal-icons"
-                  target="_blank"
-                  href="https://github.com/2asato/Udemy_Web_Developer_Bootcamp/tree/master/patatap"
-                  title="Github"
-                  ><i class="fab fa-github fa-2x"></i
-                ></a>
-                <a
-                  class="modal-icons"
-                  title="Live"
-                  target="_blank"
-                  href="https://patataptap.herokuapp.com/"
-                  ><img src="pics/if_free-15_463002.png" alt=""
-                /></a>
-  
-                <button type="button" class="btn btn-outline-success raleway btn-rounded btn-sm ml-4" data-dismiss="modal">Close</button>
-    
-              </div>
-    
             </div>
-            <!--/.Content-->
-    
+            <!--Modal: Name-->
+
+            <a
+              ><img
+                class="img-fluid z-depth-1 project-img"
+                src="/pics/patataptap.png"
+                alt="image"
+                data-toggle="modal"
+                data-target="#modalPatataptap"
+            /></a>
           </div>
-        </div>
-        <!--Modal: Name-->
-    
-        <a><img class="img-fluid z-depth-1 project-img" src="/pics/patataptap.png" alt="image"
-            data-toggle="modal" data-target="#modalPatataptap"></a>
-    
-      </div>
-      <!-- Grid column -->
-      
-      <!-- Patataptap end -->
-      
+          <!-- Grid column -->
 
-    <!-- FF Blog   -->
+          <!-- Patataptap end -->
 
-    <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
-  
-        <!--Modal: Name-->
-        <div class="modal fade" id="modalFFBlog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-    
-            <!--Content-->
-            <div class="modal-content">
-  
-              <!-- Header -->
-  
-                <div class="modal-header">
+          <!-- FF Blog   -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-4">
+            <!--Modal: Name-->
+            <div
+              class="modal fade"
+              id="modalFFBlog"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!-- Header -->
+
+                  <div class="modal-header">
                     <h5 class="modal-title raleway text-light">F-F-Blog</h5>
                     <button
                       type="button"
@@ -309,121 +367,129 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-  
-    
-              <!--Body-->
-              <div class="modal-body mb-0 p-0">
-  
-                  <div class="modal-body lead text-muted">
-                      <p><em>
-                          All things Fantasy Football <br> Built using HTML, CSS, NodeJS, Express and Mongoose<br />Hosted on Heroku.
+
+                  <!--Body-->
+                  <div class="modal-body mb-0 p-0">
+                    <div class="modal-body lead text-muted">
+                      <p>
+                        <em>
+                          All things Fantasy Football <br />
+                          Built using HTML, CSS, NodeJS, Express and Mongoose<br />Hosted
+                          on Heroku.
                         </em>
-                        </p>
+                      </p>
                     </div>
-    
-    
-    
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a
+                      class="modal-icons"
+                      target="_blank"
+                      href="https://github.com/2asato/FF_Blog"
+                      title="Github"
+                      ><i class="fab fa-github fa-2x"></i
+                    ></a>
+                    <a
+                      class="modal-icons"
+                      title="Live"
+                      target="_blank"
+                      href="https://f-f-blog.herokuapp.com/posts"
+                      ><img src="pics/if_free-15_463002.png" alt=""
+                    /></a>
+
+                    <button
+                      type="button"
+                      class="btn btn-outline-success raleway btn-rounded btn-sm ml-4"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+                <!--/.Content-->
               </div>
-    
-              <!--Footer-->
-              <div class="modal-footer justify-content-center">
-                  <a
-                  class="modal-icons"
-                  target="_blank"
-                  href="https://github.com/2asato/FF_Blog"
-                  title="Github"
-                  ><i class="fab fa-github fa-2x"></i
-                ></a>
-                <a
-                  class="modal-icons"
-                  title="Live"
-                  target="_blank"
-                  href="https://f-f-blog.herokuapp.com/posts"
-                  ><img src="pics/if_free-15_463002.png" alt=""
-                /></a>
-  
-                <button type="button" class="btn btn-outline-success raleway btn-rounded btn-sm ml-4" data-dismiss="modal">Close</button>
-    
-              </div>
-    
             </div>
-            <!--/.Content-->
-    
+            <!--Modal: Name-->
+
+            <a
+              ><img
+                class="img-fluid z-depth-1 project-img"
+                src="/pics/ffblog.png"
+                alt="image"
+                data-toggle="modal"
+                data-target="#modalFFBlog"
+            /></a>
           </div>
+          <!-- Grid column -->
+
+          <!-- FF Blog end -->
         </div>
-        <!--Modal: Name-->
-    
-        <a><img class="img-fluid z-depth-1 project-img" src="/pics/ffblog.png" alt="image"
-            data-toggle="modal" data-target="#modalFFBlog"></a>
-    
+        <!-- Grid row -->
       </div>
-      <!-- Grid column -->  
-
-      <!-- FF Blog end -->
-
-  </div>
-  <!-- Grid row -->
-  
-        </div>
-      </div>
-
 
       <!-- About Me -->
       <a href="" id="aboutMe"></a>
       <div class="container mt-5 section-container">
-          <div class="about-text">
-              <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">About Me</h1>
-              <div class="container">
-                  <p class="lead about-text">
-                      A passionate Web Developer with a strong leadership background and is comfortable working in fast paced environments. I am committed to assisting in driving innovation, conversation and results through problem solving, collaboration and providing great work.
-                    
-                    </p>
-      
-              </div>
-            </div>
-            <img
-            class="mt-5 mb-4"
-              id="profile-pic"
-              src="pics/profile_pic.jpg"
-              alt=""
-              height="200"
-              width="200"
-            />
-    
+        <div class="about-text">
+          <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">
+            About Me
+          </h1>
+          <div class="container">
+            <p class="lead about-text">
+              A passionate Web Developer with a strong leadership background and
+              is comfortable working in fast paced environments. I am committed
+              to assisting in driving innovation, conversation and results
+              through problem solving, collaboration and providing great work.
+            </p>
+          </div>
+        </div>
+        <img
+          class="mt-5 mb-4"
+          id="profile-pic"
+          src="pics/profile_pic.jpg"
+          alt=""
+          height="200"
+          width="200"
+        />
       </div>
 
+      <!-- twitter -->
+      <a id="happenings"></a>
+      <div class="container mt-5 section-container">
+        <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">
+          Happenings
+        </h1>
 
-            <!-- twitter -->
-            <a id="happenings"></a>
-            <div class="container mt-5 section-container">
-              <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">Happenings</h1>
-      
-              <div class="text-center twitter-container">
-                <a
-                  class="twitter-timeline"
-                  href="https://twitter.com/aarongsato?ref_src=twsrc%5Etfw"
-                  data-height="500"
-                  data-width="600"
-                  >Tweets by aarongsato</a
-                >
-                <script
-                  async
-                  src="https://platform.twitter.com/widgets.js"
-                  charset="utf-8"
-                ></script>
-              </div>
-            </div>
-            <!-- twitter end -->
+        <div class="text-center twitter-container">
+          <a
+            class="twitter-timeline"
+            href="https://twitter.com/aarongsato?ref_src=twsrc%5Etfw"
+            data-height="500"
+            data-width="600"
+            >Tweets by aarongsato</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+      <!-- twitter end -->
 
-
-                  <!-- skills -->
+      <!-- skills -->
       <a id="skills"></a>
       <div class="container mt-5 section-container">
-        <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">Skills</h1>
+        <h1 class="text-center text-uppercase raleway font-weight-bold mb-5">
+          Skills
+        </h1>
 
         <div class="row" id="skills-list">
           <div class="col-md-4">
-            <h5 class="text-center raleway text-uppercase font-weight-bold">Languages</h5>
+            <h5 class="text-center raleway text-uppercase font-weight-bold">
+              Languages
+            </h5>
             <ul class="text-center lead list-unstyled skills-list">
               <li class="pb-1">HTML5</li>
               <li class="pb-1">CSS</li>
@@ -433,7 +499,9 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h5 class="text-center raleway text-uppercase font-weight-bold">Languages and Frameworks</h5>
+            <h5 class="text-center raleway text-uppercase font-weight-bold">
+              Languages and Frameworks
+            </h5>
             <ul class="text-center lead list-unstyled skills-list">
               <li class="pb-1">Angular</li>
               <li class="pb-1">jQuery</li>
@@ -443,7 +511,9 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h5 class="text-center raleway text-uppercase font-weight-bold">Databases</h5>
+            <h5 class="text-center raleway text-uppercase font-weight-bold">
+              Databases
+            </h5>
             <ul class="text-center lead list-unstyled skills-list">
               <li class="pb-1">PostgreSQL</li>
               <li class="pb-1">MongoDB</li>
@@ -458,27 +528,27 @@
       </h5> -->
       </div>
       <!-- skills end -->
+    </div>
 
-          <!-- footer -->
+    <!-- footer -->
     <footer
-    class="page-footer font-small nav-foot text-center bg-light pb-3 mt-5"
-    id="foot"
-  >
-    <p class="pt-4">
-      Created by Aaron Sato     <img src="/pics/favicon-256.png" class="ml-2" alt="" width="28" height="28">
+      class="page-footer font-small nav-foot text-center bg-light pb-3 mt-5"
+      id="foot"
+    >
+      <p class="pt-4">
+        Created by Aaron Sato
+        <img
+          src="/pics/favicon-256.png"
+          class="ml-2"
+          alt=""
+          width="28"
+          height="28"
+        />
+      </p>
+    </footer>
+    <!-- footer end -->
 
-    </p>
-  </footer>
-  <!-- footer end -->
-
-
-      
-
-    
-    
-
-  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- bootstrap jquery -->
     <script
@@ -511,6 +581,5 @@
     ></script>
 
     <script type="text/javascript" src="app.js"></script>
-
   </body>
 </html>
