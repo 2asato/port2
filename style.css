@@ -9,6 +9,15 @@ body {
   
 }
 
+
+ul.navbar-nav a {
+  color: black !important;
+}
+
+ul.navbar-nav a:hover {
+  color: darkgrey !important;
+  }
+
 .raleway {
   font-family: 'Raleway', sans-serif !important;
 }
