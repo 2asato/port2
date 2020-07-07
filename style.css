@@ -9,9 +9,14 @@ body {
   
 }
 
+.navbar-brand {
+  font-weight: 400;
+}
 
-ul.navbar-nav a {
+
+ul.navbar-nav a, .page-footer {
   color: black !important;
+  font-weight: 400;
 }
 
 ul.navbar-nav a:hover {

@@ -17,3 +17,4 @@ $(".navbar a").click(function(){
 	$( '#myNav .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
+
